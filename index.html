@@ -1,11 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    .
     <title>Document</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <form id="bioForm">
+      <div>
+        <label for="firstname">Name</label>
+        <input type="text" id="firstname" name="firstname" required />
+      </div>
+      <div>
+        <label for="lastname">Lastname</label>
+        <input type="text" id="lastname" name="surname" required />
+      </div>
+      <div>
+        <label for="age">Age</label>
+        <input type="number" id="age" name="age" min="0" required />
+      </div>
+      <div>
+        <label for="Industry">Field of interest(Comma-Separated)</label>
+        <input type="text" id="industry" name="industry" required />
+      </div>
+      <div>
+        <label for="hobbies">Hobbies(Comma-Separated)</label>
+        <input type="text" id="hobbies" name="hobbies" required />
+      </div>
+      <div>
+        <label for="experience"> Years of Experience</label>
+        <input type="number" id="experience" name="experience" />
+      </div>
+      <div>
+        <label for="accomplishments"> Accomplistments</label>
+        <input type="text" id="accomplishments" name="accomplishments" />
+      </div>
+
+      <div>
+        <button type="submit">Submit</button>
+      </div>
+
+      <br />
+      <div id="bioDetail"></div>
+    </form>
+  </body>
+
+  <script src="script.js"></script>
 </html>
