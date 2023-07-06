@@ -22,7 +22,7 @@ This project is a software developer random bio generator developed using vanill
 
 ## Getting Started
 
-1. Clone the repository: `git clone https://github.com/your-username/software-developer-bio-generator.git`
+1. Clone the repository: `https://github.com/Makhosetive7/SoftwareDeveloper-Random-Bio-Generator.git`
 2. Open the project in your preferred code editor.
 3. Open the `index.html` file in a web browser.
 4. Fill in the necessary details in the input fields.
