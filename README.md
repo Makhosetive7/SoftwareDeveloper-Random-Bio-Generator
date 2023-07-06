@@ -1,6 +1,9 @@
 # SoftwareDeveloper-Random-Bio-Generator
 # Name: **Makhosetive Sibanda**
 
+
+## Project image
+
 ![Drag Racing](image.jpeg)
 
 This project is a software developer random bio generator developed using vanilla JavaScript, HTML, and CSS3. The main goal of this project was to revisit and revise the fundamentals of JavaScript while also creating a fun and interactive tool.
