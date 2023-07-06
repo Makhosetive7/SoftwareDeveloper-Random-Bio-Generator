@@ -15,7 +15,7 @@ const bioTemplates = [
   
   const form = document.getElementById("bioForm");
   const bioDetail = document.getElementById("bioDetail");
-  const copyButton = document.getElementById("copyButton");
+
   
   form.addEventListener("submit", (event) => {
     event.preventDefault();
@@ -45,3 +45,5 @@ const bioTemplates = [
   
     bioDetail.innerHTML = `<p>${generatedBio}</p>`;
   });
+
+  
